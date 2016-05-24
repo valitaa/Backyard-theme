@@ -1,0 +1,50 @@
+$boton:#5fa8ff;
+$color-text:#808080;
+$tipo-letra: verdana;
+$fondo-gris:#e1e3e2;
+$letra:white;
+$text-shadow: 3px 3px 3px #aaa;
+
+.container{
+	font-family: $tipo-letra;
+
+	.fondo-imagen{
+		background-size:cover;
+		background-image: url(../images/1920x665-1.jpg);
+		padding:5% 5%;
+		.caja-imagen{
+			padding:10%;
+			text-shadow:$text-shadow;
+
+			h1{
+			color:$letra;
+			}
+
+			p{
+				color: $letra;
+			}
+			.btn{
+				padding:2%;
+			}
+			.btn-azul{
+				background-color: $boton;
+				color:$letra;
+				border-radius:70px;
+			}
+			.btn-transparent{
+				border:2px solid $boton;
+				color:$boton;
+				border-radius:70px;
+			}
+		}
+	}
+	.fondo-gris{
+		background-color:$fondo-gris;
+		h2{
+			color:$color-text;
+		}
+		p{
+			color:$color-text;
+		}
+	}
+}

@@ -1,0 +1,31 @@
+.container {
+  font-family: verdana; }
+  .container .fondo-imagen {
+    background-size: cover;
+    background-image: url(../images/1920x665-1.jpg);
+    padding: 5% 5%; }
+    .container .fondo-imagen .caja-imagen {
+      padding: 10%;
+      text-shadow: 3px 3px 3px #aaa; }
+      .container .fondo-imagen .caja-imagen h1 {
+        color: white; }
+      .container .fondo-imagen .caja-imagen p {
+        color: white; }
+      .container .fondo-imagen .caja-imagen .btn {
+        padding: 2%; }
+      .container .fondo-imagen .caja-imagen .btn-azul {
+        background-color: #5fa8ff;
+        color: white;
+        border-radius: 70px; }
+      .container .fondo-imagen .caja-imagen .btn-transparent {
+        border: 2px solid #5fa8ff;
+        color: #5fa8ff;
+        border-radius: 70px; }
+  .container .fondo-gris {
+    background-color: #e1e3e2; }
+    .container .fondo-gris h2 {
+      color: #808080; }
+    .container .fondo-gris p {
+      color: #808080; }
+
+/*# sourceMappingURL=app.css.map */
